@@ -24,6 +24,7 @@ body {
      font-weight: 400;
     font-style: normal;
     font-size:xx-large;
+    background-color: #CCFFFF;
       }
 
     
@@ -36,6 +37,18 @@ body {
     background-color: #CCFFFF;
     }
 
+    .ourstory {
+        background-color: #CCFFFF;
+        padding: 20px;
+    }
+
+    b {
+        text-decoration: underline;
+    }
+
+   
+
+   
     
       
 
