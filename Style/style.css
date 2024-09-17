@@ -6,6 +6,11 @@ body {
     background-color: aqua;
 }
 
+.bg-body-tertiary {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
 .carousel {
     margin-top: 200px;
     margin-left: 200px;
@@ -21,8 +26,16 @@ body {
     font-size:xx-large;
       }
 
-      p {
-        background-color: #CCFFFF;
-      }
+    
+
+    .menu {
+        padding-top: 200;
+        padding-bottom: 200;
+        padding-left: 100;
+        padding-right: 100;
+    background-color: #CCFFFF;
+    }
+
+    
       
 
