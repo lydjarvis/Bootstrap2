@@ -4,6 +4,7 @@ body {
 .container-fluid {
     /* background-color: #85C7C6; */
 }
+
 .navbar {
     padding-bottom: 60px;
     padding-top: 25px;
@@ -18,13 +19,11 @@ body {
 .d-block {
     padding-top: 100px;
 }
-
 .flipped {
     padding-top: 50px;
     height: 400px;
     width: 262px;
 }
-
 .green {
     background-color:#274343;
 }
@@ -33,6 +32,14 @@ body {
 }
 .active {
     color: #dc9a3f !important
+}
+.form-row {
+    text-align: center;
+    padding-top: 20px;
+}
+.newsletter {
+    text-align: center;
+    padding-top: 50px;
 }
 .heading-1 {
     text-align: center;
@@ -51,38 +58,39 @@ body {
     border-bottom-width: 200px;
     padding-left: 100px;
     padding-bottom: 200px;
-    padding-right: 100px;
+    padding-right: 150px;
     background-color: #CCFFFF;
 }
-    .ourstory {
+.ourstory {
     background-color: #CCFFFF;
     padding: 20px;
-    font-family: "Oswald", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
+    font-size: large;
 }
 
-    b {
+b {
     text-decoration: underline;
 }
 
-    .dropdown-menu {
+.dropdown-menu {
     background-color:#274343;
     font-size: large;
         
 }
-   .nav-item {
+.nav-item {
     font-size: x-large;
 }
-   .nav-link {
+.nav-link {
     font-size: x-large;
 }
-   .owner-picture {
+.owner-picture {
     margin-right: 0px;
     height: 500px;
     padding-top: 50px;
     border-right-width: 100px;
     padding-right: 0px;
     padding-bottom: 50px;
+}
+
+footer {
+    background-color: #CCFFFF;
 }

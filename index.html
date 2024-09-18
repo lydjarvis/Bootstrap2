@@ -13,10 +13,10 @@
 <body>
   <header class="container-fluid green">
     <section class="row">
-      <section class="col-md-4 col-xs-1">
-        <img src="Style/mamakaguy-removebg-preview.png" alt="mamakalogo" class="mamakaguy">
-      </section>
-   <section class="col-md-7 col-xs-1">
+    <section class="col-md-4 col-xs-1">
+      <img src="Style/mamakaguy-removebg-preview.png" alt="mamakalogo" class="mamakaguy">
+    </section>
+    <section class="col-md-7 col-xs-1">
     <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,33 +25,33 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Mamaka</a>
+        <a class="nav-link active" aria-current="page" href="#">Mamaka</a>
         </li>
-      <li class="nav-item">
+        <li class="nav-item">
         <a class="nav-link" href="ourstory.html">Our Story</a>
-      </li>
-      <li class="nav-item">
+        </li>
+        <li class="nav-item">
          <a class="nav-link" href="https://www.instagram.com/mamakabowls/">Instagram</a>
-      </li>
-      <li class="dropdown" class="nav-item dropdown">
+        </li>
+        <li class="dropdown" class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
         Menu!
         </a>
-      <ul class="dropdown-menu" class="dropdown">
-      <li><a class="dropdown-item" href="./menu.html"><b>Bowls</b></a></li>
-      <li><a class="dropdown-item" href="#">Smoothies</a></li>          
-      <li><a class="dropdown-item" href="#">Coffee</a></li>
-      </ul>
-      </li>      
-      </ul>
-      </div>
-      </div>
-      </nav>
-      </section>
-      <section class="col-md-1 col-xs-1"></section>
-      </section>
-    </header>
-    <main class="container-fluid">
+        <ul class="dropdown-menu" class="dropdown">
+        <li><a class="dropdown-item" href="./menu.html"><b>Bowls</b></a></li>
+        <li><a class="dropdown-item" href="#">Smoothies</a></li>          
+        <li><a class="dropdown-item" href="#">Coffee</a></li>
+        </ul>
+        </li>      
+        </ul>
+        </div>
+        </div>
+        </nav>
+    </section>
+    <section class="col-md-1 col-xs-1"></section>
+    </section>
+  </header>
+  <main class="container-fluid">
       <section class="row">
       <section class="col-md-3 col-xs-1">
         <img src="Style/mamakaguy-removebg-preview.png" alt="" class="flipped">
@@ -87,68 +87,36 @@
       <section class="col">
       </section>
       </section>
-    </main>
-    <form class="row g-3">
-      <div class="col-md-6">
-        <label for="validationServer01" class="form-label">First name</label>
-        <input type="text" class="form-control is-valid" id="validationServer01" value="Mark" required>
-        <div class="valid-feedback">
-          Looks good!
-        </div>
-      </div>
-      <div class="col-md-6">
-        <label for="validationServer02" class="form-label">Last name</label>
-        <input type="text" class="form-control is-valid" id="validationServer02" value="Otto" required>
-        <div class="valid-feedback">
-          Looks good!
-        </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-6">
-        <label for="validationServer03" class="form-label">City</label>
-        <input type="text" class="form-control is-invalid" id="validationServer03" aria-describedby="validationServer03Feedback" required>
-        <div id="validationServer03Feedback" class="invalid-feedback">
-          Please provide a valid city.
-        </div>
-      </div>
-      <div class="col-md-3">
-        <label for="validationServer04" class="form-label">State</label>
-        <select class="form-select is-invalid" id="validationServer04" aria-describedby="validationServer04Feedback" required>
-          <option selected disabled value="">Choose...</option>
-          <option>...</option>
-        </select>
-        <div id="validationServer04Feedback" class="invalid-feedback">
-          Please select a valid state.
-        </div>
-      </div>
-      <div class="col-md-3">
-        <label for="validationServer05" class="form-label">Zip</label>
-        <input type="text" class="form-control is-invalid" id="validationServer05" aria-describedby="validationServer05Feedback" required>
-        <div id="validationServer05Feedback" class="invalid-feedback">
-          Please provide a valid zip.
-        </div>
-      </div>
-      <div class="col-12">
-        <div class="form-check">
-          <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" aria-describedby="invalidCheck3Feedback" required>
-          <label class="form-check-label" for="invalidCheck3">
-            Agree to terms and conditions
+        <h1 class="newsletter">Let's Keep You Updated!</h1>
+        <form action="https://formspree.io/f/mldryelp" method="POST">
+          <div class="form-row">
+           <label>
+            First name:
+            <input type="text" name="first-name" required/>
           </label>
-          <div id="invalidCheck3Feedback" class="invalid-feedback">
-            You must agree before submitting.
-          </div>
         </div>
-      </div>
-      <div class="col-12">
-        <button class="btn btn-primary" type="submit">Submit form</button>
-      </div>
-    </form>
-    <footer>
+        <div class="form-row">
+          <label>
+            Last name:
+            <input type="text" name="last-name" required/>
+          </label>
+        </div>
+        <div class="form-row">
+          <label>
+            Email:
+            <input type="email" name="email" required/>
+          </label>
+        </div>
+        <div class="form-row">
+          <button type="submit">Send</button>
+        </div>
+        </form>
+  </main>
+  <footer>
       <a href="#" class="d-inline-flex focus-ring py-1 px-2 text-decoration-none border rounded-2"></a>
       <b>Copyright Message Space</b>
       </a>
-    </footer>
+  </footer>
     <script 
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
