@@ -1,55 +1,88 @@
 body {
-    background-color:#CCFFFF;
+    background-color:#45b9b7;
 }
-
 .container-fluid {
-    background-color: aqua;
+    /* background-color: #85C7C6; */
+}
+.navbar {
+    padding-bottom: 60px;
+    padding-top: 25px;
+    background-color:#274343;
+    color:#45b9b7;
+}
+.mamakaguy {
+    padding-bottom: 0px;
+    width: 50px;
+    padding-top: 20px;
+}
+.d-block {
+    padding-top: 100px;
 }
 
-.bg-body-tertiary {
-    padding-top: 0;
-    padding-bottom: 0;
+.flipped {
+    padding-top: 50px;
+    height: 400px;
+    width: 262px;
 }
 
-.carousel {
-    margin-top: 200px;
-    margin-left: 200px;
-    margin-bottom: 600px;
-    margin-right: 200px;
+.green {
+    background-color:#274343;
 }
-
+.navbar a {
+    color:#e9f4f4;
+}
+.active {
+    color: #dc9a3f !important
+}
 .heading-1 {
     text-align: center;
-     font-family: "Protest Guerrilla", sans-serif;
-     font-weight: 400;
+    font-family: “Protest Guerrilla”, sans-serif;
+    font-weight: 400;
     font-style: normal;
-    font-size:xx-large;
+    font-size:medium;
     background-color: #CCFFFF;
-      }
-
-    
-
-    .menu {
-        padding-top: 200;
-        padding-bottom: 200;
-        padding-left: 100;
-        padding-right: 100;
+}
+.heading {
+    font-size: x-large;
+    text-decoration: underline;
+}
+.menu {
+    padding-top: 200px;
+    border-bottom-width: 200px;
+    padding-left: 100px;
+    padding-bottom: 200px;
+    padding-right: 100px;
     background-color: #CCFFFF;
-    }
-
+}
     .ourstory {
-        background-color: #CCFFFF;
-        padding: 20px;
-    }
+    background-color: #CCFFFF;
+    padding: 20px;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
 
     b {
-        text-decoration: underline;
-    }
+    text-decoration: underline;
+}
 
-
-   
-
-   
-    
-      
-
+    .dropdown-menu {
+    background-color:#274343;
+    font-size: large;
+        
+}
+   .nav-item {
+    font-size: x-large;
+}
+   .nav-link {
+    font-size: x-large;
+}
+   .owner-picture {
+    margin-right: 0px;
+    height: 500px;
+    padding-top: 50px;
+    border-right-width: 100px;
+    padding-right: 0px;
+    padding-bottom: 50px;
+}
