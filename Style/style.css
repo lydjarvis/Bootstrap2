@@ -37,10 +37,13 @@ body {
     text-align: center;
     padding-top: 20px;
 }
-.newsletter {
+h1 {
     text-align: center;
     padding-top: 50px;
-}
+    font-family: "Jacques Francois Shadow", serif;
+    font-weight: 400;
+    font-style: normal;
+} 
 .heading-1 {
     text-align: center;
     font-family: “Protest Guerrilla”, sans-serif;

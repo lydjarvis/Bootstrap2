@@ -6,3 +6,15 @@ Mamaka is a little up and coming smoothie bowl joint with amazing options that y
 ### Wireframes
 <img src="./Style/homepage.wireframe.jpg">
 <img src="./Style/wireframe2.jpg">
+
+### Technologies used:
+- Html
+- CSS
+- Google fonts
+- Bootstrap
+- Draw.io
+- Color picker
+- Remove.bg
+- W3 Html checker
+
+### User Stories:
