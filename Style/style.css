@@ -1,10 +1,6 @@
 body {
     background-color:#45b9b7;
 }
-.container-fluid {
-    /* background-color: #85C7C6; */
-}
-
 .navbar {
     padding-bottom: 60px;
     padding-top: 25px;
@@ -43,7 +39,7 @@ h1 {
     font-family: "Jacques Francois Shadow", serif;
     font-weight: 400;
     font-style: normal;
-} 
+}
 .heading-1 {
     text-align: center;
     font-family: “Protest Guerrilla”, sans-serif;
@@ -51,6 +47,15 @@ h1 {
     font-style: normal;
     font-size:medium;
     background-color: #CCFFFF;
+}
+.container-fluid {
+    width: 100%;
+    padding-top: 45px;
+    justify-content: center;
+    font-family: "Old Standard TT", serif;
+    font-weight: 400;
+    font-style: normal; 
+    color: #dc9a3f; 
 }
 .heading {
     font-size: x-large;
@@ -64,20 +69,18 @@ h1 {
     padding-right: 150px;
     background-color: #CCFFFF;
 }
-.ourstory {
-    background-color: #CCFFFF;
-    padding: 20px;
-    font-size: large;
-}
-
 b {
     text-decoration: underline;
 }
-
+h1 {
+    padding-top: 0;
+}
+h2 {
+    text-align: center;
+}
 .dropdown-menu {
     background-color:#274343;
-    font-size: large;
-        
+    font-size: large; 
 }
 .nav-item {
     font-size: x-large;
@@ -85,15 +88,16 @@ b {
 .nav-link {
     font-size: x-large;
 }
-.owner-picture {
-    margin-right: 0px;
-    height: 500px;
-    padding-top: 50px;
-    border-right-width: 100px;
-    padding-right: 0px;
-    padding-bottom: 50px;
-}
-
 footer {
     background-color: #CCFFFF;
+}
+main {
+    background-color: #CCFFFF;
+    color: #dc9a3f;
+}
+.owners {
+    width: 100%
+}
+.clearfix {
+    padding-bottom: 50px;
 }
