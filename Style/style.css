@@ -62,11 +62,9 @@ h1 {
     text-decoration: underline;
 }
 .menu {
-    padding-top: 200px;
-    border-bottom-width: 200px;
-    padding-left: 100px;
-    padding-bottom: 200px;
-    padding-right: 150px;
+   width: 100%;
+   padding-top: 50px;
+   padding-bottom: 50px;
     background-color: #CCFFFF;
 }
 b {
@@ -100,4 +98,6 @@ main {
 }
 .clearfix {
     padding-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
