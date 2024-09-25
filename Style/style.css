@@ -128,15 +128,15 @@ main {
     font-style: normal;
     color: #dc9a3f;
 }
-div.scroll-container {
+.scroll-container {
     background-color:#CCFFFF;
     overflow: auto;
     white-space: nowrap;
     padding: 10px;
     width: 100%;
     justify-content: center;
+    padding-left: 50px;
   }
-  
-  div.scroll-container img {
-    padding: 10px;
+  .product3 {
+    padding-top: 50px;
   }
