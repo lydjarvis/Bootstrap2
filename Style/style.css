@@ -78,6 +78,7 @@ h2 {
 }
 .dropdown-menu {
     background-color:#274343;
+    color: #274343;
     font-size: large; 
 }
 .nav-item {
@@ -101,3 +102,40 @@ main {
     margin-left: 50px;
     margin-right: 50px;
 }
+.bowls {
+    text-align: center;
+    background-color: #CCFFFF;
+    font-size: x-large;
+    padding-top: 30px;
+    font-family: "Gowun Batang", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Gowun Batang", serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #dc9a3f;
+}
+.coffee {
+    text-align: center;
+    background-color: #CCFFFF;
+    font-size: x-large;
+    padding-top: 30px;
+    font-family: "Gowun Batang", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Gowun Batang", serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #dc9a3f;
+}
+div.scroll-container {
+    background-color:#CCFFFF;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  div.scroll-container img {
+    padding: 10px;
+  }
