@@ -134,6 +134,7 @@ div.scroll-container {
     white-space: nowrap;
     padding: 10px;
     width: 100%;
+    justify-content: center;
   }
   
   div.scroll-container img {
